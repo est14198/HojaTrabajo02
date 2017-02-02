@@ -2,6 +2,7 @@
  *
  * @author FER ESTRADA
  */
+
 public class Interfaz {
 
     /**
