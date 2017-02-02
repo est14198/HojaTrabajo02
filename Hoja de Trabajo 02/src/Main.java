@@ -3,7 +3,7 @@
  * @author FER ESTRADA
  */
 
-public class Interfaz {
+public class Main {
 
     /**
      * @param args the command line arguments
