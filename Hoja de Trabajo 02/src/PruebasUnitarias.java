@@ -5,8 +5,33 @@ import org.junit.Test;
 public class PruebasUnitarias {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void Division() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals("Division de 10/2",calculadora.division(10, 2),5,0.001);
+	}
+	
+	@Test
+	public void Multiplicacion() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals("Multiplicacion de 10*2",calculadora.multiplicacion(10, 2),20,0.001);
+	}
+	
+	@Test
+	public void Suma() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals("Suma de 10+2",calculadora.suma(10, 2),12,0.001);
+	}
+	
+	@Test
+	public void Resta() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals("Resta de 10-2",calculadora.resta(10, 2),8,0.001);
+	}
+	
+	@Test
+	public void OperacionBasica() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals("Operacion: 1 1 +",calculadora.operar(" 1 1 +"),2,0.001);
 	}
 
 	
