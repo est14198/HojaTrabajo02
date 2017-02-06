@@ -10,11 +10,6 @@
 
 
 
-/**
- *
- * @author FER ESTRADA
- */
-
 public class Main {
 
     /**
