@@ -12,10 +12,10 @@
 
 public class Calculadora implements iCalculadora {
 
-	double operacionDivision;
-	double operacionSuma;
-	double operacionResta;
-	double operacionMultiplicacion;
+	private double operacionDivision;
+	private double operacionSuma;
+	private double operacionResta;
+	private double operacionMultiplicacion;
 	
 	@Override
 	public double operar(String n) {

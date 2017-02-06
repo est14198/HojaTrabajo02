@@ -12,11 +12,15 @@
 
 public class Main {
 
-    /**
+    private static String datos;
+
+	/**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+    	Leer dats = new Leer ();
+    	datos = dats.textoLeer("datos.txt");
+    	System.out.println(datos);
     }
     
 }

@@ -15,7 +15,7 @@ public class PilaVector<E> implements iPila<E> {
 
 	protected Vector<E> data;
 	
-	// post: inicia una pila nueva y vacia
+	// post: inicia una pila nueva y vacia con un espacio definido
 	public PilaVector(int size)	{
 		data = new Vector<E>(size);
 	}
