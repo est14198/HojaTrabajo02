@@ -18,9 +18,15 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+    	// Leer los datos del archivo
     	Leer dats = new Leer ();
-    	datos = dats.textoLeer("datos.txt");
+    	datos = dats.textoLeer("C:/Users/FER ESTRADA/git/HojaTrabajo02/Hoja de Trabajo 02/src/datos.txt");
     	System.out.println(datos);
+    	
+    	iCalculadora miCalcu = new Calculadora();
+    	
+    	// Imprimir resultado
+    	System.out.println(miCalcu.operar(datos));
     }
     
 }
