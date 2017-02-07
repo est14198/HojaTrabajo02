@@ -5,6 +5,7 @@
  * Hoja de Trabajo 02
  * Maria Fernanda Estrada 14198
  * Christopher Sandoval 13660
+ * @author Christopher Sandoval
  * 6 Enero 2017
  */
 

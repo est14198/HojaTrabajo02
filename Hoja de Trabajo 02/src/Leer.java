@@ -4,6 +4,7 @@
  * Algoritmos y Estructura de Datos Seccion 10
  * Hoja de Trabajo 02
  * Maria Fernanda Estrada 14198
+ * @author FER ESTRADA
  * Christopher Sandoval 13660
  * 6 Enero 2017
  */
