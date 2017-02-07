@@ -6,7 +6,7 @@
  * Maria Fernanda Estrada 14198
  * Christopher Sandoval 13660
  * @author Christopher Sandoval
- * 6 Enero 2017
+ * @since 6 Enero 2017
  */
 
 import java.util.ArrayList;

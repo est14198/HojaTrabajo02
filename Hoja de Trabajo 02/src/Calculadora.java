@@ -6,7 +6,7 @@
  * Maria Fernanda Estrada 14198
  * Christopher Sandoval 13660
  * @author Christopher Sandoval 
- * 6 Enero 2017
+ * @since 6 Enero 2017
  */
 
 public class Calculadora implements iCalculadora {
@@ -17,7 +17,9 @@ public class Calculadora implements iCalculadora {
 	private double operacionMultiplicacion;
 	private iPila<Double> miStack;
 
-	// Constructor
+	/**
+	 * Constructor
+	 */
 	public Calculadora() {
 		miStack = new PilaVector<Double>(2);
 	}
